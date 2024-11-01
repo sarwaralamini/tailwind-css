@@ -1,7 +1,7 @@
 # How to install?
--   **Clone the repository:**
+-   **Clone the repository & run command:**
     ```bash
-    Clone the repository: run command - git clone https://github.com/sarwaralamini/tailwind-css
+    git clone https://github.com/sarwaralamini/tailwind-css
     ```
 - **Then run npm commands**
     ```bash
@@ -102,17 +102,17 @@ Installing Tailwind CSS via the Command Line Interface (CLI) offers several adva
 
 ## To install Tailwind CSS via the CLI, follow these steps:
 
-## **1. Install Tailwind CSS via npm:**
+### **1. Install Tailwind CSS via npm:**
    ```bash
    npm install -D tailwindcss
    ```
 
-## **2. Create a configuration file[tailwind.config.js]:**
+### **2. Create a configuration file[tailwind.config.js]:**
    ```bash
    npx tailwindcss init
    ```
 
-## **3. Configure your template paths[tailwind.config.js]:**
+### **3. Configure your template paths[tailwind.config.js]:**
    ```javascript
    <!-- @type {import('tailwindcss').Config} -->
     module.exports = {
@@ -124,14 +124,14 @@ Installing Tailwind CSS via the Command Line Interface (CLI) offers several adva
     }
    ```
 
-## **4. Add Tailwind to your CSS: Create a CSS file (e.g., styles.css) and include the Tailwind directives:**
+### **4. Add Tailwind to your CSS: Create a CSS file (e.g., styles.css) and include the Tailwind directives:**
    ```css
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
    ```
 
-## **5. Start the Tailwind CLI build process:**
+### **5. Start the Tailwind CLI build process:**
    ```bash
    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
    ```
