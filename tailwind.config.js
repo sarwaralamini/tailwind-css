@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         playwrite: '"Playwrite GB S", cursive',
+        nothing: '"Nothing You Could Do", cursive',
       }
     },
   },
