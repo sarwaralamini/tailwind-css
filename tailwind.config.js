@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         playwrite: '"Playwrite GB S", cursive',
         nothing: '"Nothing You Could Do", cursive',
+        dmmono: '"DM Mono", serif'
       }
     },
   },

@@ -556,6 +556,28 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "DM Mono";
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  src: url("/output/fonts/DMMono-Regular.woff2") format("woff2"),
+             url("/output/fonts/DMMono-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DM Mono";
+
+  font-weight: 300;
+
+  font-style: italic;
+
+  src: url("/output/fonts/DMMono-Italic.woff2") format("woff2"),
+             url("/output/fonts/DMMono-Italic.woff") format("woff");
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -585,6 +607,10 @@ video {
 
 .text-center{
   text-align: center;
+}
+
+.font-dmmono{
+  font-family: "DM Mono", serif;
 }
 
 .font-mono{
@@ -618,6 +644,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .text-white{

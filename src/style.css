@@ -2,3 +2,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: "DM Mono";
+        font-weight: 400;
+        font-style: normal;
+        src: url("/output/fonts/DMMono-Regular.woff2") format("woff2"),
+             url("/output/fonts/DMMono-Regular.woff") format("woff");
+    }
+
+    @font-face {
+        font-family: "DM Mono";
+        font-weight: 300;
+        font-style: italic;
+        src: url("/output/fonts/DMMono-Italic.woff2") format("woff2"),
+             url("/output/fonts/DMMono-Italic.woff") format("woff");
+    }
+}
