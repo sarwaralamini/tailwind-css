@@ -712,6 +712,7 @@ video {
 
 .text-paragraph{
   font-size: 1.5rem;
+  line-height: 25px;
 }
 
 .text-sm{

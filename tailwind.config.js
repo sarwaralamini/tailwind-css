@@ -11,7 +11,7 @@ module.exports = {
       },
       fontSize: {
         body: '1.125rem',
-        paragraph: '1.5rem',
+        paragraph: ['1.5rem', '25px'], //font-size 1.5rem and line-height 25px
         custompx: '20px'
       }
     },
