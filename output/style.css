@@ -703,6 +703,9 @@ video {
 
 .text-custompx{
   font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-weight: 200;
 }
 
 .text-lg{

@@ -12,7 +12,11 @@ module.exports = {
       fontSize: {
         body: '1.125rem',
         paragraph: ['1.5rem', '25px'], //font-size 1.5rem and line-height 25px
-        custompx: '20px'
+        custompx: ['20px', { //font-size 20px, line-height 25px, letter-spacing 2px, font-weight 200
+          lineHeight: '25px',
+          letterSpacing: '2px',
+          fontWeight: '200'
+        }]
       }
     },
   },
