@@ -8,6 +8,11 @@ module.exports = {
         playwrite: '"Playwrite GB S", cursive',
         nothing: '"Nothing You Could Do", cursive',
         dmmono: '"DM Mono", serif'
+      },
+      fontSize: {
+        body: '1.125rem',
+        paragraph: '1.5rem',
+        custompx: '20px'
       }
     },
   },
