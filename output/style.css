@@ -782,6 +782,10 @@ video {
   line-height: 2rem;
 }
 
+.hover\:not-italic:hover{
+  font-style: normal;
+}
+
 .hover\:subpixel-antialiased:hover{
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
