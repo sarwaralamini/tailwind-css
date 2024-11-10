@@ -745,6 +745,10 @@ video {
   font-style: italic;
 }
 
+.not-italic{
+  font-style: normal;
+}
+
 .text-\[12\]{
   color: 12;
 }
