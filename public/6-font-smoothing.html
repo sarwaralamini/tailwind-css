@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Font Smoothing</title>
+    <link rel="stylesheet" href="../output/style.css">
+</head>
+<body>
+
+    <!-- SONT SMOOTHING -->
+    <h1 class="font-bold">Font Smoothing (antialiased)</h1>
+    <p class="antialiased text-lg">
+        This class applies grayscale anti-aliasing to make fonts look softer. It's ideal for regular-sized text to make it appear smoother on high-resolution displays.
+    </p>
+
+    <h1 class="font-bold mt-3">Font Smoothing (subpixel-antialiased)</h1>
+    <p class="subpixel-antialiased text-lg">
+        This class applies subpixel anti-aliasing, which often makes fonts appear sharper. It’s useful when you want the text to be more readable, especially for smaller fonts.
+    </p>
+
+    <!-- Explanation
+    Grayscale anti-aliasing (antialiased) smooths text edges without using color, making it more suited for dark text on light backgrounds or vice versa.
+    Subpixel anti-aliasing (subpixel-antialiased) leverages colored subpixels to improve the smoothness, often creating sharper-looking text at smaller sizes. -->
+</body>
+</html>
