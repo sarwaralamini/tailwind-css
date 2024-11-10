@@ -778,6 +778,11 @@ video {
   line-height: 2rem;
 }
 
+.hover\:subpixel-antialiased:hover{
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
 @media (min-width: 1024px){
   .lg\:font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
