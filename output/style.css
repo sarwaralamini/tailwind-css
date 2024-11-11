@@ -777,6 +777,10 @@ video {
   font-weight: 100;
 }
 
+.font-\[900\]{
+  font-weight: 900;
+}
+
 .italic{
   font-style: italic;
 }
