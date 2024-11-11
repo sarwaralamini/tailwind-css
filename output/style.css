@@ -590,6 +590,10 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .bg-teal-400{
   --tw-bg-opacity: 1;
   background-color: rgb(45 212 191 / var(--tw-bg-opacity));
@@ -808,6 +812,10 @@ video {
 .hover\:text-2xl:hover{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.hover\:font-bold:hover{
+  font-weight: 700;
 }
 
 .hover\:not-italic:hover{
