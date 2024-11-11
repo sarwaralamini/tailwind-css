@@ -17,6 +17,9 @@ module.exports = {
           letterSpacing: '2px',
           fontWeight: '200'
         }]
+      },
+      fontWeight: {
+        "custom-weight": '100'
       }
     },
   },
