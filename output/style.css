@@ -854,8 +854,8 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.tracking-tighter{
-  letter-spacing: -0.05em;
+.tracking-2{
+  letter-spacing: 0.025em;
 }
 
 .tracking-normal{
@@ -864,6 +864,10 @@ video {
 
 .tracking-tight{
   letter-spacing: -0.025em;
+}
+
+.tracking-tighter{
+  letter-spacing: -0.05em;
 }
 
 .tracking-wide{
@@ -876,6 +880,10 @@ video {
 
 .tracking-widest{
   letter-spacing: 0.1em;
+}
+
+.-tracking-2{
+  letter-spacing: -0.025em;
 }
 
 .text-\[12\]{
