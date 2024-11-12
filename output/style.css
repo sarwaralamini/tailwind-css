@@ -895,6 +895,11 @@ video {
   font-style: normal;
 }
 
+.hover\:ordinal:hover{
+  --tw-ordinal: ordinal;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
 .hover\:subpixel-antialiased:hover{
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
