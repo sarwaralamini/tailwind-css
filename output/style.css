@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -578,6 +580,17 @@ video {
              url("/output/fonts/DMMono-Italic.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Source Sans Pro";
+
+  font-weight: 300;
+
+  font-style: normal;
+
+  src: url("/output/fonts/SourceSansPro-Regular.woff2") format("woff2"),
+             url("/output/fonts/SourceSansPro-Regular.woff") format("woff");
+}
+
 .mb-3{
   margin-bottom: 0.75rem;
 }
@@ -639,6 +652,14 @@ video {
 
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-source{
+  font-family: "Source Sans Pro","ui-sans-serif","system-ui",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.font-ubuntu-mono{
+  font-family: "Ubuntu Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
 .text-2xl{
@@ -737,6 +758,10 @@ video {
   line-height: 1rem;
 }
 
+.font-\[900\]{
+  font-weight: 900;
+}
+
 .font-black{
   font-weight: 900;
 }
@@ -777,16 +802,56 @@ video {
   font-weight: 100;
 }
 
-.font-\[900\]{
-  font-weight: 900;
-}
-
 .italic{
   font-style: italic;
 }
 
 .not-italic{
   font-style: normal;
+}
+
+.normal-nums{
+  font-variant-numeric: normal;
+}
+
+.ordinal{
+  --tw-ordinal: ordinal;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.slashed-zero{
+  --tw-slashed-zero: slashed-zero;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.lining-nums{
+  --tw-numeric-figure: lining-nums;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.oldstyle-nums{
+  --tw-numeric-figure: oldstyle-nums;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.proportional-nums{
+  --tw-numeric-spacing: proportional-nums;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.tabular-nums{
+  --tw-numeric-spacing: tabular-nums;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.diagonal-fractions{
+  --tw-numeric-fraction: diagonal-fractions;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.stacked-fractions{
+  --tw-numeric-fraction: stacked-fractions;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
 .text-\[12\]{

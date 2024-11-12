@@ -7,7 +7,9 @@ module.exports = {
       fontFamily: {
         playwrite: '"Playwrite GB S", cursive',
         nothing: '"Nothing You Could Do", cursive',
-        dmmono: '"DM Mono", serif'
+        dmmono: '"DM Mono", serif',
+        "source": '"Source Sans Pro","ui-sans-serif","system-ui",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
+        "ubuntu-mono": '"Ubuntu Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace'
       },
       fontSize: {
         body: '1.125rem',

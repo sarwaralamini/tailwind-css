@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,5 +19,13 @@
         font-style: italic;
         src: url("/output/fonts/DMMono-Italic.woff2") format("woff2"),
              url("/output/fonts/DMMono-Italic.woff") format("woff");
+    }
+
+    @font-face {
+        font-family: "Source Sans Pro";
+        font-weight: 300;
+        font-style: normal;
+        src: url("/output/fonts/SourceSansPro-Regular.woff2") format("woff2"),
+             url("/output/fonts/SourceSansPro-Regular.woff") format("woff");
     }
 }
