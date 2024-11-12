@@ -886,6 +886,34 @@ video {
   letter-spacing: -0.025em;
 }
 
+.tracking-\[10\]{
+  letter-spacing: 10;
+}
+
+.tracking-\[2em\]{
+  letter-spacing: 2em;
+}
+
+.tracking-\[1em\]{
+  letter-spacing: 1em;
+}
+
+.tracking-\[0\.5em\]{
+  letter-spacing: 0.5em;
+}
+
+.tracking-\[0\.1em\]{
+  letter-spacing: 0.1em;
+}
+
+.tracking-\[0\.125em\]{
+  letter-spacing: 0.125em;
+}
+
+.tracking-\[0\.225em\]{
+  letter-spacing: 0.225em;
+}
+
 .text-\[12\]{
   color: 12;
 }
