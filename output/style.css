@@ -985,6 +985,22 @@ video {
   line-height: 1.5rem;
 }
 
+.leading-10{
+  line-height: 2.5rem;
+}
+
+.leading-snug{
+  line-height: 1.375;
+}
+
+.leading-loose{
+  line-height: 2;
+}
+
+.leading-tight{
+  line-height: 1.25;
+}
+
 .-tracking-2{
   letter-spacing: -0.025em;
 }
@@ -1091,6 +1107,10 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.hover\:leading-tight:hover{
+  line-height: 1.25;
+}
+
 .hover\:subpixel-antialiased:hover{
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
@@ -1160,6 +1180,14 @@ video {
   .lg\:ordinal{
     --tw-ordinal: ordinal;
     font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+  }
+
+  .lg\:leading-tight{
+    line-height: 1.25;
+  }
+
+  .lg\:leading-loose{
+    line-height: 2;
   }
 
   .lg\:subpixel-antialiased{
