@@ -1066,6 +1066,10 @@ video {
   -webkit-line-clamp: 3;
 }
 
+.hover\:text-center:hover{
+  text-align: center;
+}
+
 .hover\:font-serif:hover{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
