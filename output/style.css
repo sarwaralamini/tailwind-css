@@ -693,6 +693,34 @@ video {
   flex: none;
 }
 
+.list-image-\[url\(\)\]{
+  list-style-image: url();
+}
+
+.list-image-\[url\(\'\/output\/check-mark\.png\'\)\]{
+  list-style-image: url('/output/check-mark.png');
+}
+
+.list-image-\[url\(output\/check-mark\.png\)\]{
+  list-style-image: url(output/check-mark.png);
+}
+
+.list-image-\[url\(\.\.\/output\/check-mark\.png\)\]{
+  list-style-image: url(../output/check-mark.png);
+}
+
+.list-image-\[url\(check-mark\.png\)\]{
+  list-style-image: url(check-mark.png);
+}
+
+.list-image-\[url\(\/output\/check-mark\.png\)\]{
+  list-style-image: url(/output/check-mark.png);
+}
+
+.list-image-\[url\(\/output\/img\/check-mark\.png\)\]{
+  list-style-image: url(/output/img/check-mark.png);
+}
+
 .gap-x-2\.5{
   -moz-column-gap: 0.625rem;
        column-gap: 0.625rem;
@@ -738,6 +766,10 @@ video {
   padding: 2rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -751,6 +783,10 @@ video {
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
 }
 
 .text-center{
