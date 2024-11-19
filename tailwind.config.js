@@ -32,6 +32,9 @@ module.exports = {
       listStyleImage: {
         checkmark: 'url("../output/img/checkmark.png")',
       },
+      colors: {
+        'primary': '#bc6c25',
+      }
     },
   },
   plugins: [],
