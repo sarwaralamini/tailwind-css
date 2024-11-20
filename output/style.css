@@ -1083,32 +1083,16 @@ video {
   text-decoration-line: none;
 }
 
-.decoration-red-400{
-  text-decoration-color: #f87171;
-}
-
-.decoration-red-400\/5{
-  text-decoration-color: rgb(248 113 113 / 0.05);
-}
-
-.decoration-red-400\/30{
-  text-decoration-color: rgb(248 113 113 / 0.3);
-}
-
-.decoration-\[\#50d71e\]\/30{
-  text-decoration-color: rgb(80 215 30 / 0.3);
-}
-
-.decoration-\[\#50d71e\]\/\[\.33\]{
-  text-decoration-color: rgb(80 215 30 / .33);
-}
-
-.decoration-\[\#50d71e\]\/\[\.11\]{
-  text-decoration-color: rgb(80 215 30 / .11);
-}
-
 .decoration-\[\#50d71e\]\/\[\.22\]{
   text-decoration-color: rgb(80 215 30 / .22);
+}
+
+.decoration-custom-blue{
+  text-decoration-color: #88aad5;
+}
+
+.decoration-red-400{
+  text-decoration-color: #f87171;
 }
 
 .decoration-red-400\/40{
@@ -1127,12 +1111,16 @@ video {
   text-decoration-thickness: 4px;
 }
 
+.decoration-5{
+  text-decoration-thickness: 5px;
+}
+
 .underline-offset-4{
   text-underline-offset: 4px;
 }
 
-.underline-offset-2{
-  text-underline-offset: 2px;
+.underline-offset-10{
+  text-underline-offset: 10px;
 }
 
 .antialiased{
@@ -1202,10 +1190,6 @@ video {
   text-decoration-line: underline;
 }
 
-.hover\:overline:hover{
-  text-decoration-line: overline;
-}
-
 .hover\:line-through:hover{
   text-decoration-line: line-through;
 }
@@ -1214,36 +1198,12 @@ video {
   text-decoration-color: #2dd4bf;
 }
 
-.hover\:decoration-red-400:hover{
-  text-decoration-color: #f87171;
-}
-
-.hover\:decoration-solid:hover{
-  text-decoration-style: solid;
-}
-
 .hover\:decoration-wavy:hover{
   text-decoration-style: wavy;
 }
 
-.hover\:decoration-4:hover{
-  text-decoration-thickness: 4px;
-}
-
 .hover\:decoration-2:hover{
   text-decoration-thickness: 2px;
-}
-
-.hover\:underline-offset-1:hover{
-  text-underline-offset: 1px;
-}
-
-.hover\:underline-offset-2:hover{
-  text-underline-offset: 2px;
-}
-
-.hover\:underline-offset-4:hover{
-  text-underline-offset: 4px;
 }
 
 .hover\:underline-offset-8:hover{

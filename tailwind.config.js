@@ -34,6 +34,13 @@ module.exports = {
       },
       colors: {
         'primary': '#bc6c25',
+        'custom-blue': '#88aad5',
+      },
+      textDecorationThickness: {
+        5: '5px',
+      },
+      textUnderlineOffset: {
+        10: '10px',
       }
     },
   },
