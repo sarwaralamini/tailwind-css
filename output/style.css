@@ -1083,6 +1083,34 @@ video {
   text-decoration-line: none;
 }
 
+.decoration-blue-400{
+  text-decoration-color: #60a5fa;
+}
+
+.decoration-red-400{
+  text-decoration-color: #f87171;
+}
+
+.decoration-double{
+  text-decoration-style: double;
+}
+
+.decoration-dotted{
+  text-decoration-style: dotted;
+}
+
+.decoration-4{
+  text-decoration-thickness: 4px;
+}
+
+.decoration-2{
+  text-decoration-thickness: 2px;
+}
+
+.underline-offset-4{
+  text-underline-offset: 4px;
+}
+
 .antialiased{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
