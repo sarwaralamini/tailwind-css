@@ -1146,6 +1146,10 @@ video {
   color: rgb(13 148 136 / var(--tw-text-opacity));
 }
 
+.hover\:line-through:hover{
+  text-decoration-line: line-through;
+}
+
 .hover\:subpixel-antialiased:hover{
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
