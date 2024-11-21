@@ -1210,6 +1210,12 @@ video {
   -webkit-line-clamp: 3;
 }
 
+.hover\:truncate:hover{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .hover\:text-center:hover{
   text-align: center;
 }
