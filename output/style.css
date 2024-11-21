@@ -1276,6 +1276,10 @@ video {
     font-weight: 600;
   }
 
+  .lg\:uppercase{
+    text-transform: uppercase;
+  }
+
   .lg\:not-italic{
     font-style: normal;
   }
