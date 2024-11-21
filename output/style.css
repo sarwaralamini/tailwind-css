@@ -1318,6 +1318,12 @@ video {
     -webkit-line-clamp: 3;
   }
 
+  .lg\:truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .lg\:text-center{
     text-align: center;
   }
