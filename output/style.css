@@ -798,6 +798,10 @@ video {
   text-indent: -10rem;
 }
 
+.indent-20{
+  text-indent: 5rem;
+}
+
 .font-dmmono{
   font-family: "DM Mono", serif;
 }
@@ -1266,6 +1270,10 @@ video {
 
 .hover\:text-center:hover{
   text-align: center;
+}
+
+.hover\:indent-40:hover{
+  text-indent: 10rem;
 }
 
 .hover\:font-serif:hover{
