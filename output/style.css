@@ -786,6 +786,14 @@ video {
   text-indent: 26rem;
 }
 
+.indent-\[20rem\]{
+  text-indent: 20rem;
+}
+
+.-indent-\[20rem\]{
+  text-indent: -20rem;
+}
+
 .font-dmmono{
   font-family: "DM Mono", serif;
 }
