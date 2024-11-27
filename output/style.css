@@ -766,40 +766,24 @@ video {
   text-align: end;
 }
 
-.indent-8{
-  text-indent: 2rem;
-}
-
-.indent-72{
-  text-indent: 18rem;
-}
-
-.indent-60{
-  text-indent: 15rem;
-}
-
-.indent-40{
-  text-indent: 10rem;
+.-indent-40{
+  text-indent: -10rem;
 }
 
 .indent-10{
   text-indent: 2.5rem;
 }
 
-.-indent-52{
-  text-indent: -13rem;
+.indent-20{
+  text-indent: 5rem;
 }
 
 .indent-52{
   text-indent: 13rem;
 }
 
-.-indent-40{
-  text-indent: -10rem;
-}
-
-.indent-20{
-  text-indent: 5rem;
+.indent-custom{
+  text-indent: 26rem;
 }
 
 .font-dmmono{
@@ -1386,6 +1370,10 @@ video {
 
   .lg\:text-center{
     text-align: center;
+  }
+
+  .lg\:indent-40{
+    text-indent: 10rem;
   }
 
   .lg\:font-mono{

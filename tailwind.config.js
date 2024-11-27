@@ -41,6 +41,9 @@ module.exports = {
       },
       textUnderlineOffset: {
         10: '10px',
+      },
+      textIndent: {
+        'custom' : "26rem"
       }
     },
   },
