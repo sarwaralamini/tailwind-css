@@ -766,6 +766,38 @@ video {
   text-align: end;
 }
 
+.indent-8{
+  text-indent: 2rem;
+}
+
+.indent-72{
+  text-indent: 18rem;
+}
+
+.indent-60{
+  text-indent: 15rem;
+}
+
+.indent-40{
+  text-indent: 10rem;
+}
+
+.indent-10{
+  text-indent: 2.5rem;
+}
+
+.-indent-52{
+  text-indent: -13rem;
+}
+
+.indent-52{
+  text-indent: 13rem;
+}
+
+.-indent-40{
+  text-indent: -10rem;
+}
+
 .font-dmmono{
   font-family: "DM Mono", serif;
 }
