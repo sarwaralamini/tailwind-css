@@ -1557,6 +1557,10 @@ video {
     text-indent: 10rem;
   }
 
+  .lg\:align-bottom{
+    vertical-align: bottom;
+  }
+
   .lg\:font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
