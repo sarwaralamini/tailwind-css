@@ -1413,6 +1413,10 @@ video {
   text-indent: 10rem;
 }
 
+.hover\:align-bottom:hover{
+  vertical-align: bottom;
+}
+
 .hover\:font-serif:hover{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
